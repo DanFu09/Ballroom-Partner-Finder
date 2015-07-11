@@ -5,9 +5,16 @@ for i in range(numOfUsers):
     print str('{ \n' +
     '   "first name": ' + ' "user' + str(i+1) + 'firstName",\n'
     '   "last name": ' + ' "user' + str(i+1) + 'lastName",\n'
-    '   "age": ' + str(random.randint(18, 60)) +', \n'
+    '   "email": ' + ' "user' + str(i+1) + 'lastName@gmail.com",\n'
+    '   "pic URL": ' + ' "user' + str(i+1) + 'picURl",\n'
+    '   "age": ' + str(random.randint(18, 60)) + ', \n'
     '   "sex": ' + '"male", \n'
-    '   "style list": ' + '["Style1", "Style2", "Style3", "style4"], \n'
-    '   "skill level": ' + '[' + str(random.randint(1,4))+ ', ' + str(random.randint(1,4))+ ', '+ str(random.randint(1,4))+ ', '+ str(random.randint(1,4))+ '], \n'
-    '   "searching": ' + str(random.randint(0,1))
-  +'\n },')
+    '   "location": '  + ' "user' + str(i+1) + 'address",\n'
+    '   "height": ' + str(random.randint(58, 76)) + ', \n'
+    '   "searching": ' + str(random.randint(0,1)) + ', \n'
+    '   "styles": ' + '[ \n     {\n' +
+    '       "name": ' + ' "standard",\n'
+    '       "division": ' + '"Amateur", \n'
+    '       "level": ' + '"bronze", \n'
+    '       "hours": ' + str(random.randint(1, 10)) + ', \n     } \n]'
+    + '\n},')
