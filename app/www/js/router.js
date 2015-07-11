@@ -33,7 +33,7 @@ define([
         routes: {
             '': 'main',
             'profile': 'profile',
-            'profile?:userId': 'profile',
+            'profile/:userId': 'profile',
             'settings': 'settings'
         },
 
