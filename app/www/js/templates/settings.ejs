@@ -1,12 +1,40 @@
 <h1><%= "Add a style"%></h1>
 
-<table class="table">
-	<tbody>
-		<tr>
-			<td></td>
-		<tr>
-	</tbody>
-</table>
-
-<a href="#profile"><button type="button" class="btn btn-default">Profile</button></a>
-<a href="#"><button type="button" class="btn btn-default">Home</button></a>
+<form class="form-group padded newstyle" action="#profile">
+  <label for="style">Choose style:</label>
+  <select class="form-control" id="style">
+    <option>Latin</option>
+     <option>Rhythm</option>
+    <option>Standard</option>
+    <option>Smooth</option>
+  </select>
+  <label for="level">Choose level:</label>
+  <select class="form-control" id="level">
+    <option>Newcomer</option>
+    <option>Bronze</option>
+    <option>Silver</option>
+    <option>Gold</option>
+	<option>Rising Star</option>
+    <option>Champ</option>
+  </select>
+  <label for="division">Choose level:</label>
+  <select class="form-control" id="division">
+    <option>Professional</option>
+    <option>Pro/Am</option>
+    <option>Amateur</option>
+  </select>
+  <label for="lf">Leader or Follower?</label>
+  <select class="form-control" id="lf">
+    <option>Leader</option>
+    <option>Follower</option>
+  </select>
+  <label for="looking">Looking for a Partner?</label>
+  <select class="form-control" id="looking">
+    <option>Yes</option>
+    <option>No</option>
+  </select>
+  <label for="hours">Hours per week you'll commit to the style:</label>
+  <input type="number" class="form-control" id="hours">
+  <br>
+  <center><button type="submit" class="btn btn-default">Submit</button></center>
+</form>
