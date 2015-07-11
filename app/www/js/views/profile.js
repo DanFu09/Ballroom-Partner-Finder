@@ -21,7 +21,6 @@ define([
 
         toggleDetails: function(e) {
             var rows = $("."+e.target.attributes[1].value).each(function(){
-                console.log($(this));
                 if ($(this).css('display') == 'none'){
                     $(this).show();
                 }
@@ -29,7 +28,6 @@ define([
                     $(this).hide();
                 }
             })
-            console.log(e.target.attributes[1].value);
         },
 
         render: function() {

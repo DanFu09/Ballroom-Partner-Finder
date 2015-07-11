@@ -20,8 +20,6 @@ define([
         render: function() {
             var self = this;
 
-            console.log(self.collection.toJSON());
-
             self.$el.append(self.template({
                 users: self.collection.toJSON()
             }));
