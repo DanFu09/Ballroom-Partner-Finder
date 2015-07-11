@@ -1,3 +1,174 @@
+<<<<<<< HEAD
+{
+    "age": 38,
+    "email": "user1lastName@gmail.com",
+    "first name": "user1firstName",
+    "height": 73,
+    "last name": "user1lastName",
+    "location": "user1address",
+    "pic URL": "user1picURl",
+    "searching": 1,
+    "sex": "male",
+    "styles": {
+        "division": "Amateur",
+        "hours": 6,
+        "level": "Pre-bronze",
+        "name": "Rhythm"
+    }
+}
+{
+    "age": 58,
+    "email": "user2lastName@gmail.com",
+    "first name": "user2firstName",
+    "height": 72,
+    "last name": "user2lastName",
+    "location": "user2address",
+    "pic URL": "user2picURl",
+    "searching": 1,
+    "sex": "male",
+    "styles": {
+        "division": "Professional",
+        "hours": 1,
+        "level": "Champ",
+        "name": "Smooth"
+    }
+}
+{
+    "age": 23,
+    "email": "user3lastName@gmail.com",
+    "first name": "user3firstName",
+    "height": 61,
+    "last name": "user3lastName",
+    "location": "user3address",
+    "pic URL": "user3picURl",
+    "searching": 1,
+    "sex": "male",
+    "styles": {
+        "division": "Pro/Am",
+        "hours": 3,
+        "level": "Champ",
+        "name": "Standard"
+    }
+}
+{
+    "age": 52,
+    "email": "user4lastName@gmail.com",
+    "first name": "user4firstName",
+    "height": 69,
+    "last name": "user4lastName",
+    "location": "user4address",
+    "pic URL": "user4picURl",
+    "searching": 0,
+    "sex": "male",
+    "styles": {
+        "division": "Pro/Am",
+        "hours": 8,
+        "level": "Silver",
+        "name": "Standard"
+    }
+}
+{
+    "age": 54,
+    "email": "user5lastName@gmail.com",
+    "first name": "user5firstName",
+    "height": 66,
+    "last name": "user5lastName",
+    "location": "user5address",
+    "pic URL": "user5picURl",
+    "searching": 0,
+    "sex": "male",
+    "styles": {
+        "division": "Professional",
+        "hours": 4,
+        "level": "Champ",
+        "name": "Rhythm"
+    }
+}
+{
+    "age": 58,
+    "email": "user6lastName@gmail.com",
+    "first name": "user6firstName",
+    "height": 59,
+    "last name": "user6lastName",
+    "location": "user6address",
+    "pic URL": "user6picURl",
+    "searching": 0,
+    "sex": "male",
+    "styles": {
+        "division": "Pro/Am",
+        "hours": 6,
+        "level": "Bronze",
+        "name": "Rhythm"
+    }
+}
+{
+    "age": 54,
+    "email": "user7lastName@gmail.com",
+    "first name": "user7firstName",
+    "height": 62,
+    "last name": "user7lastName",
+    "location": "user7address",
+    "pic URL": "user7picURl",
+    "searching": 1,
+    "sex": "male",
+    "styles": {
+        "division": "Professional",
+        "hours": 3,
+        "level": "Silver",
+        "name": "Smooth"
+    }
+}
+{
+    "age": 33,
+    "email": "user8lastName@gmail.com",
+    "first name": "user8firstName",
+    "height": 60,
+    "last name": "user8lastName",
+    "location": "user8address",
+    "pic URL": "user8picURl",
+    "searching": 1,
+    "sex": "male",
+    "styles": {
+        "division": "Professional",
+        "hours": 2,
+        "level": "Gold",
+        "name": "Latin"
+    }
+}
+{
+    "age": 45,
+    "email": "user9lastName@gmail.com",
+    "first name": "user9firstName",
+    "height": 64,
+    "last name": "user9lastName",
+    "location": "user9address",
+    "pic URL": "user9picURl",
+    "searching": 1,
+    "sex": "male",
+    "styles": {
+        "division": "Pro/Am",
+        "hours": 6,
+        "level": "Gold",
+        "name": "Standard"
+    }
+}
+{
+    "age": 25,
+    "email": "user10lastName@gmail.com",
+    "first name": "user10firstName",
+    "height": 66,
+    "last name": "user10lastName",
+    "location": "user10address",
+    "pic URL": "user10picURl",
+    "searching": 1,
+    "sex": "male",
+    "styles": {
+        "division": "Amateur",
+        "hours": 10,
+        "level": "Silver",
+        "name": "Standard"
+    }
+=======
 [
   { 
    "first name":  "user1firstName",
@@ -188,5 +359,5 @@
        "hours": 5
      } 
 ]
+>>>>>>> 7559d1fced2fe551578b0139173ff55261d66242
 }
-]
