@@ -12,12 +12,12 @@ define([
 
         initialize: function(options) {
             this.user = options.user;
-        }
+        },
 
         render: function() {
             var self = this;
 
-            this.$el = this.template(self.toJSON());
+            this.$el = this.template(self.user.toJSON());
         }
     });
 

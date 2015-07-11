@@ -1,3 +1,22 @@
-<h1>This is my profile page!</h1>
-<a href="#settings"><button>View Style</button></a>
+<h1><%= "Ima Dancer" %></h1>
+
+<table class="table">
+    <thead>
+      <tr>
+        <th>Style</th>
+        <th>Level</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+    	<% for (var i = 0; i < 4; i++) { %>  
+		<tr>
+		<td><%= "Latin"%></td>
+		<td><%= "Pre-Champ"%></td>
+		<td><a href="#settings"><button>View Details</button></a></td>
+		</tr>
+		<% } %>
+    </tbody>
+  </table>
+<a href="#settings"><button>Add Style</button></a>
 <a href="#"><button>Home</button></a>
