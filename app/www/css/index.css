@@ -71,11 +71,3 @@ h1 {
     -moz-border-radius: 0 !important;
     border-radius: 0 !important;
 }
-
-tr {
-    display: none;
-}
-
-tr.header {
-    display: table-row;
-}
