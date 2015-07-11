@@ -6,10 +6,11 @@ require.config({
         jquery: 'libs/jquery-2.1.4.min',
         backbone: 'libs/backbone-min',
         underscore: 'libs/underscore-min',
-        text: 'libs/require/text'
+        text: 'libs/require/text',
+        bootstrap: 'libs/bootstrap.min'
     },
     shim: {
-        'libs/backbone.marionette.min': { exports: 'Marionette' }
+
     },
     text: {
         useXhr: function (url, protocol, hostname, port) {

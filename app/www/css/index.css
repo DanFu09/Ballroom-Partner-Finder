@@ -26,7 +26,7 @@ body {
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     height:100%;
     margin:0px;
-    padding:0px;
+    padding:49px 0px 0px 0px;
     width:100%;
 }
 
@@ -64,4 +64,10 @@ h1 {
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
+}
+
+.no-border-radius {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
 }

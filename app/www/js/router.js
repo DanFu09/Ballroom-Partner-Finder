@@ -5,12 +5,14 @@ define([
     'views/main',
     'views/profile',
     'views/settings',
+    'views/header',
     'collections/Users',
     'models/User'
 ], function($, _, Backbone,
     MainView,
     ProfileView,
     SettingsView,
+    HeaderView,
     UsersCollection,
     UserModel
 ) {
@@ -18,7 +20,13 @@ define([
 
     var Router = Backbone.Router.extend({
         initialize: function(options) {
+            this.headerContainer = options.headerContainer;
+            this.headerView = new HeaderView();
+            this.headerView.render();
+            this.headerContainer.append(this.headerView.$el);
+
             this.contentContainer = options.contentContainer;
+            this.footerContainer = options.footerContainer;
             this.usersCollection = new UsersCollection();
         },
 
