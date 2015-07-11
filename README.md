@@ -20,5 +20,5 @@ To run a local HTTP server:
 ```
 sudo npm install -g http-server
 cd app
-http-server
+http-server -o --cors
 ```
