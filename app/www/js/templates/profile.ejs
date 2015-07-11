@@ -19,14 +19,14 @@
 		<tr class = 'header'>
 		<td  ><%= "Latin"%></td>
 		<td><%= "Pre-Champ"%></td>
-		<td><button type="button" class="btn btn-default">Details</button></td>
+		<td><button type="button" attri=<%="select"+i%> class="btn btn-default shower">Details</button></td>
 		</tr>
-    <tr>
-      <td><%="Leader"%></td>  
-    </tr>
-    <tr>
-      <td><%="Not Looking for partner"%></td>  
-    </tr>
+      <tr style="display:none" class=<%='select'+i%> >
+        <td><%="Leader"%></td>  
+      </tr>
+      <tr style="display:none" class=<%='select'+i%> >
+        <td><%="Not Looking for partner"%></td>  
+      </tr>
 		<% } %>
     </tbody>
   </table>
