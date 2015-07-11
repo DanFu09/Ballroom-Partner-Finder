@@ -82,6 +82,10 @@ tr.header {
 
 .navbar-left {
     float: left;
+    border-right: 1px solid #ddd;
+    height: 50px;
+    font-size: 30px;
+    padding-top: 7px;
 }
 
 .navbar-middle {
@@ -90,4 +94,8 @@ tr.header {
 
 .navbar-right {
     float: right;
+    border-left: 1px solid #ddd;
+    height: 50px;
+    font-size: 30px;
+    padding-top: 7px;
 }
