@@ -50,5 +50,4 @@ IOS/www/
 .Trashes
 
 # Kelsey's stuff
-.idea
-.idea/*
+*.idea/*
