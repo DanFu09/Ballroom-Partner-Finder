@@ -1,20 +1,29 @@
 import random
+import json
 
 numOfUsers = 10
+
+styleNameArray = ['Standard', 'Smooth', 'Latin', 'Rhythm']
+divisionArray = ['Amateur', 'Professional', 'Pro/Am']
+levelArray = ['Pre-bronze', 'Bronze', 'Silver', 'Gold', 'Rising Star', 'Champ']
+jsonFile  = open('app/www/static/users.json', 'w')
+
+def getRandType(typeArray):
+    return str(typeArray[random.randrange(len(typeArray))])
+
 for i in range(numOfUsers):
-    print str('{ \n' +
-    '   "first name": ' + ' "user' + str(i+1) + 'firstName",\n'
-    '   "last name": ' + ' "user' + str(i+1) + 'lastName",\n'
-    '   "email": ' + ' "user' + str(i+1) + 'lastName@gmail.com",\n'
-    '   "pic URL": ' + ' "user' + str(i+1) + 'picURl",\n'
-    '   "age": ' + str(random.randint(18, 60)) + ', \n'
-    '   "sex": ' + '"male", \n'
-    '   "location": '  + ' "user' + str(i+1) + 'address",\n'
-    '   "height": ' + str(random.randint(58, 76)) + ', \n'
-    '   "searching": ' + str(random.randint(0,1)) + ', \n'
-    '   "styles": ' + '[ \n     {\n' +
-    '       "name": ' + ' "standard",\n'
-    '       "division": ' + '"Amateur", \n'
-    '       "level": ' + '"bronze", \n'
-    '       "hours": ' + str(random.randint(1, 10)) + ', \n     } \n]'
-    + '\n},')
+
+    user = dict([('first name', 'user' + str(i+1) + 'firstName'),
+              ('last name', 'user' + str(i+1) + 'lastName'),
+              ('email', 'user' + str(i+1) + 'lastName@gmail.com'),
+              ('pic URL', 'user' + str(i+1) + 'picURl'),
+              ('age', random.randint(18, 60)),
+              ('sex', 'male'),
+              ('location', 'user' + str(i+1) + 'address'),
+              ('height', random.randint(58, 76)),
+              ('searching', random.randint(0,1)),
+              ('styles', dict([('name', getRandType(styleNameArray)),
+                               ('division', getRandType(divisionArray)),
+                               ('level', getRandType(levelArray)),
+                               ('hours', random.randint(1, 10))]))])
+    print(json.dumps(user, sort_keys=True,indent=4, separators=(',', ': ')))
