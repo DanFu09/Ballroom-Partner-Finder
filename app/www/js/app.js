@@ -16,11 +16,26 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-define(function (require) {
+define([
+    'jquery',
+    'underscore',
+    'backbone',
+    'router'
+], function ($, _ , Backbone, Router) {
+    'use strict';
+
     var app = {
         // Application Constructor
         initialize: function() {
             this.bindEvents();
+
+            var contentContainer = $('#partner-finder-app');
+
+            var router = new Router({
+                contentContainer: contentContainer
+            });
+
+            Backbone.history.start();
         },
         // Bind Event Listeners
         //
@@ -46,6 +61,8 @@ define(function (require) {
             receivedElement.setAttribute('style', 'display:block;');
 
             console.log('Received Event: ' + id);
+
+
         }
     };
 
