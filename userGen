@@ -3,7 +3,7 @@ import json
 
 numOfUsers = 10
 
-firstNameList = ['Bob', 'John', 'Alex', 'Mary', 'Jim', 'Suzie', 'Katie', 'Fred', 'Tyler', 'Wendy','Dan', 'Kelsey']
+firstNameList = ['Bob', 'John', 'Alex', 'Mary', 'Suzie', 'Katie', 'Fred', 'Tyler', 'Wendy','Dan', 'Kelsey']
 lastNameList = ['Johnson', 'Smith', 'Doe', 'Adams', 'Akins', 'White', 'Freud', 'Einstein', 'Christ', 'Hernadez','Wang', 'Walker']
 styleNameArray = ['Standard', 'Smooth', 'Latin', 'Rhythm']
 divisionArray = ['Amateur', 'Professional', 'Pro/Am']
@@ -24,25 +24,31 @@ for i in range(numOfUsers):
     sex = getRandType(sexArray)
     address = 'user' + str(i+1) + 'address'
 
-    stylesName = getRandType(styleNameArray)
+    random.shuffle(styleNameArray)
+    numStyles = random.randint(1, 4)
+
     division = getRandType(divisionArray)
-    level = getRandType(levelArray)
-    hours = random.randint(1, 10)
+    for j in range(numStyles):
+        stylesName = getRandType(styleNameArray)
+        level = getRandType(levelArray)
+        hours = random.randint(1, 20)
 
-    styles = [dict([('name', stylesName),
-                   ('division', division),
-                   ('level', level),
-                   ('hours', hours)])]
+        styles = [dict([('name', stylesName),
+                      ('division', division),
+                      ('level', level),
+                      ('hours', hours),
+                      ('searching', random.randint(0,1))])]
 
-    user = dict([('first name', firstName),
-              ('last name', lastName ),
+    user = dict([
+              ('userId', i),
+              ('firstName', firstName),
+              ('lastName', lastName ),
               ('email', email),
-              ('pic URL', picURL),
+              ('picURL', picURL),
               ('age', age),
               ('sex', sex),
               ('location', address),
               ('height', random.randint(58, 76)),
-              ('searching', random.randint(0,1)),
               ('styles', styles)])
     print json.dumps(user, sort_keys=True,indent=4, separators=(',', ': '))
 
