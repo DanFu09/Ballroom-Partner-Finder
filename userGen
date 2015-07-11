@@ -34,10 +34,10 @@ for i in range(numOfUsers):
                    ('level', level),
                    ('hours', hours)])]
 
-    user = dict([('first name', firstName),
-              ('last name', lastName ),
+    user = dict([('firstName', firstName),
+              ('lastName', lastName ),
               ('email', email),
-              ('pic URL', picURL),
+              ('picURL', picURL),
               ('age', age),
               ('sex', sex),
               ('location', address),
