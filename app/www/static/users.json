@@ -1,0 +1,26 @@
+var userList = [
+  {
+    "first name": "John",
+    "last name": "Doe",
+    "age": 39,
+    "sex": "male",
+    "skill level": 70000,
+    "searching": true
+  },
+  {
+    "first name": "Jane",
+    "last name": "Smith",
+    "age": 42,
+    "sex": "female",
+    "skill level": 80000,
+    "searching": true
+  },
+  {
+    "first name": "Amy",
+    "last name": "Burnquist",
+    "age": 29,
+    "sex": "female",
+    "skill level": 60000,
+    "searching": false
+  }
+];
