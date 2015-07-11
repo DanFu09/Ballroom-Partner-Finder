@@ -40,15 +40,6 @@ body {
     }
 }
 
-h1 {
-    font-size:24px;
-    font-weight:normal;
-    margin:0px;
-    overflow:visible;
-    padding:0px;
-    text-align:center;
-}
-
 @keyframes fade {
     from { opacity: 1.0; }
     50% { opacity: 0.4; }
@@ -98,4 +89,8 @@ tr.header {
     height: 50px;
     font-size: 30px;
     padding-top: 7px;
+}
+
+.padded {
+    padding: 5px;
 }
