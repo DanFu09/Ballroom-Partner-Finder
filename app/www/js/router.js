@@ -33,6 +33,7 @@ define([
         routes: {
             '': 'main',
             'profile': 'profile',
+            'profile?:userId': 'profile',
             'settings': 'settings'
         },
 
@@ -54,14 +55,24 @@ define([
             });
         },
 
-        profile: function() {
+        profile: function(userId) {
             var self = this;
 
+            var user;
             var mainUser = new UserModel();
             mainUser.url='static/mainUser.json';
+            if (userId) {
+                user = self.usersCollection.find(function(user) {
+                    return user.get('userId') === Number(userId);
+                });
+            }
+            else {
+                user = mainUser;
+            }
 
             var profileView = new ProfileView({
-                user: mainUser
+                user: user,
+                mainUser: mainUser
             });
 
             $.when(mainUser.fetch()).then(function() {

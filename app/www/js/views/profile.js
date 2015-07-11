@@ -13,6 +13,7 @@ define([
 
         initialize: function(options) {
             this.user = options.user;
+            this.mainUser = options.mainUser;
         },
 
         events: {
