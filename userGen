@@ -3,7 +3,7 @@ import json
 
 numOfUsers = 10
 
-firstNameList = ['Bob', 'John', 'Alex', 'Mary', 'Suzie', 'Katie', 'Fred', 'Tyler', 'Wendy','Dan', 'Kelsey']
+firstNameList = ['Bob', 'John', 'Alex', 'Mary', 'Jim', 'Suzie', 'Katie', 'Fred', 'Tyler', 'Wendy','Dan', 'Kelsey']
 lastNameList = ['Johnson', 'Smith', 'Doe', 'Adams', 'Akins', 'White', 'Freud', 'Einstein', 'Christ', 'Hernadez','Wang', 'Walker']
 styleNameArray = ['Standard', 'Smooth', 'Latin', 'Rhythm']
 divisionArray = ['Amateur', 'Professional', 'Pro/Am']
@@ -13,6 +13,26 @@ sexArray = ['Male', 'Female']
 
 def getRandType(typeArray):
     return str(typeArray[random.randrange(len(typeArray))])
+
+
+def getStyles(numOfStyles):
+    stylesList = dict([])
+    styleNames = styleNameArray
+    j = 0
+    while (j < numOfStyles):
+        styleName = getRandType(styleNames)
+        styleNames = [a for a in styleNames if not a.startswith(styleName)]
+        division = getRandType(divisionArray)
+        level = getRandType(levelArray)
+        hours = random.randint(1, 10)
+        newStyle = [dict([('name', styleName),
+                   ('division', division),
+                   ('level', level),
+                   ('hours', hours)])]
+        stylesList.update({'Style' + str(j+1): newStyle})
+        j = j + 1
+    return [stylesList]
+
 
 print '[\n'
 for i in range(numOfUsers):
@@ -24,26 +44,14 @@ for i in range(numOfUsers):
     sex = getRandType(sexArray)
     address = 'user' + str(i+1) + 'address'
 
-    random.shuffle(styleNameArray)
-    numStyles = random.randint(1, 4)
-
+    stylesName = getRandType(styleNameArray)
     division = getRandType(divisionArray)
-    styles = []
-    for j in range(numStyles):
-        stylesName = styleNameArray[j]
-        level = getRandType(levelArray)
-        hours = random.randint(1, 20)
+    level = getRandType(levelArray)
+    hours = random.randint(1, 10)
 
-        style = dict([('name', stylesName),
-                      ('division', division),
-                      ('level', level),
-                      ('hours', hours),
-                      ('searching', random.randint(0,1))])
-        styles.append(style)
+    styles = getStyles(random.randint(1,len(styleNameArray)))
 
-    user = dict([
-              ('userId', i),
-              ('firstName', firstName),
+    user = dict([('firstName', firstName),
               ('lastName', lastName ),
               ('email', email),
               ('picURL', picURL),
@@ -51,6 +59,7 @@ for i in range(numOfUsers):
               ('sex', sex),
               ('location', address),
               ('height', random.randint(58, 76)),
+              ('searching', random.randint(0,1)),
               ('styles', styles)])
     print json.dumps(user, sort_keys=True,indent=4, separators=(',', ': '))
 
