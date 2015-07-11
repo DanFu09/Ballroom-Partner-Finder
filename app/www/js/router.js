@@ -49,9 +49,8 @@ define([
         profile: function() {
             var self = this;
 
-            var mainUser = new UserModel({
-                url: 'static/user.json'
-            });
+            var mainUser = new UserModel();
+            mainUser.url='static/mainUser.json';
 
             var profileView = new ProfileView({
                 user: mainUser
