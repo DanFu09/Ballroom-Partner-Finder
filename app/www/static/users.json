@@ -14,7 +14,7 @@
        "name":  "standard",
        "division": "Amateur", 
        "level": "bronze", 
-       "hours": 10, 
+       "hours": 10
      } 
 ]
 },
@@ -33,7 +33,7 @@
        "name":  "standard",
        "division": "Amateur", 
        "level": "bronze", 
-       "hours": 10, 
+       "hours": 10
      } 
 ]
 },
@@ -52,7 +52,7 @@
        "name":  "standard",
        "division": "Amateur", 
        "level": "bronze", 
-       "hours": 1, 
+       "hours": 1
      } 
 ]
 },
@@ -71,7 +71,7 @@
        "name":  "standard",
        "division": "Amateur", 
        "level": "bronze", 
-       "hours": 9, 
+       "hours": 9
      } 
 ]
 },
@@ -90,7 +90,7 @@
        "name":  "standard",
        "division": "Amateur", 
        "level": "bronze", 
-       "hours": 9, 
+       "hours": 9
      } 
 ]
 },
@@ -109,7 +109,7 @@
        "name":  "standard",
        "division": "Amateur", 
        "level": "bronze", 
-       "hours": 5, 
+       "hours": 5
      } 
 ]
 },
@@ -128,7 +128,7 @@
        "name":  "standard",
        "division": "Amateur", 
        "level": "bronze", 
-       "hours": 9, 
+       "hours": 9
      } 
 ]
 },
@@ -147,7 +147,7 @@
        "name":  "standard",
        "division": "Amateur", 
        "level": "bronze", 
-       "hours": 5, 
+       "hours": 5
      } 
 ]
 },
@@ -166,7 +166,7 @@
        "name":  "standard",
        "division": "Amateur", 
        "level": "bronze", 
-       "hours": 5, 
+       "hours": 5
      } 
 ]
 },
@@ -185,7 +185,7 @@
        "name":  "standard",
        "division": "Amateur", 
        "level": "bronze", 
-       "hours": 5, 
+       "hours": 5
      } 
 ]
 }

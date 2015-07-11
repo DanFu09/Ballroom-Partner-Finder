@@ -18,7 +18,9 @@ define([
 
     var Router = Backbone.Router.extend({
         initialize: function(options) {
+            this.headerContainer = options.headerContainer;
             this.contentContainer = options.contentContainer;
+            this.footerContainer = options.footerContainer;
             this.usersCollection = new UsersCollection();
         },
 
