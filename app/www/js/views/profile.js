@@ -2,9 +2,10 @@ define([
     'jquery',
     'underscore',
     'backbone',
+    'bootstrap',
 
     'text!templates/profile.ejs'
-], function($, _, Backbone,
+], function($, _, Backbone, bootstrap,
         profileTemplate
 ) {
     var profileView = Backbone.View.extend({
@@ -12,6 +13,14 @@ define([
 
         initialize: function(options) {
             this.user = options.user;
+        },
+
+        events: {
+            'click #button': 'toggleDetails'
+        },
+
+        toggleDetails: function(e) {
+            console.log("is this working");
         },
 
         render: function() {
