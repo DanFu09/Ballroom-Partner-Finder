@@ -28,16 +28,18 @@ for i in range(numOfUsers):
     numStyles = random.randint(1, 4)
 
     division = getRandType(divisionArray)
+    styles = []
     for j in range(numStyles):
-        stylesName = getRandType(styleNameArray)
+        stylesName = styleNameArray[j]
         level = getRandType(levelArray)
         hours = random.randint(1, 20)
 
-        styles = [dict([('name', stylesName),
+        style = dict([('name', stylesName),
                       ('division', division),
                       ('level', level),
                       ('hours', hours),
-                      ('searching', random.randint(0,1))])]
+                      ('searching', random.randint(0,1))])
+        styles.append(style)
 
     user = dict([
               ('userId', i),
