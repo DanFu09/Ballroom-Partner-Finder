@@ -1,4 +1,4 @@
-var userList = [
+[
   {
     "first name": "John",
     "last name": "Doe",
@@ -23,4 +23,4 @@ var userList = [
     "skill level": 60000,
     "searching": false
   }
-];
+]
