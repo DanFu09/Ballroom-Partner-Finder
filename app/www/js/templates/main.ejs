@@ -1,7 +1,7 @@
 <ul class="list-group no-border-radius">
 <% for (userIndex in users) { %>  
 	<a class="list-group-item no-border-radius" href="#">
-		<h5><%= users[userIndex]['first name'] %> <%= users[userIndex]['last name'] %></h5>
+		<h5><%= users[userIndex].firstName %> <%= users[userIndex].lastName %></h5>
 	</a>
 <% } %>
 </ul>
