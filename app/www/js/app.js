@@ -29,13 +29,13 @@ define([
         initialize: function() {
             this.bindEvents();
 
-            var contentContainer = $('#partner-finder-app');
+            /*var contentContainer = $('#partner-finder-app');
 
             var router = new Router({
                 contentContainer: contentContainer
             });
 
-            Backbone.history.start();
+            Backbone.history.start();*/
         },
         // Bind Event Listeners
         //
@@ -49,20 +49,13 @@ define([
         // The scope of 'this' is the event. In order to call the 'receivedEvent'
         // function, we must explicitly call 'app.receivedEvent(...);'
         onDeviceReady: function() {
-            app.receivedEvent('deviceready');
-        },
-        // Update DOM on a Received Event
-        receivedEvent: function(id) {
-            var parentElement = document.getElementById(id);
-            var listeningElement = parentElement.querySelector('.listening');
-            var receivedElement = parentElement.querySelector('.received');
+            var contentContainer = $('#partner-finder-app');
 
-            listeningElement.setAttribute('style', 'display:none;');
-            receivedElement.setAttribute('style', 'display:block;');
+            var router = new Router({
+                contentContainer: contentContainer
+            });
 
-            console.log('Received Event: ' + id);
-
-
+            Backbone.history.start();
         }
     };
 
