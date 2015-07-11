@@ -20,7 +20,7 @@ define([
         },
 
         toggleDetails: function(e) {
-            var rows = $("."+e.target.attributes[1].value).each(function(){
+            var rows = $("."+e.target.attributes[0].value).each(function(){
                 if ($(this).css('display') == 'none'){
                     $(this).show();
                 }
@@ -33,6 +33,7 @@ define([
         render: function() {
             var self = this;
 
+            console.log(self.user.toJSON());
             this.$el.append(this.template(self.user.toJSON()));
         }
     });

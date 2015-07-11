@@ -1,9 +1,10 @@
-<h1 style="text-align:left"><%= "Ima Dancer" %></h1>
+<h1 style="text-align:left"></h1>
 
 <div align="left">
-  <p><b>Email:</b> <%= "imaDancer@dancingqueen.dancer.com"%>
-  <br><b>Gender:</b> <%= "Female"%>
-  <br><b>Age:</b> <%= "18"%></p>
+  <p><b>Email:</b> <%= email %>
+  <br><b>Gender:</b> <%= sex %>
+  <br><b>Age:</b> <%= age %>
+  <br><b>Height:</b> <%= height+" in" %></p>
 </div>
 
 <table class="table">
@@ -15,18 +16,29 @@
       </tr>
     </thead>
     <tbody>
-    	<% for (var i = 0; i < 4; i++) { %>  
-		<tr class = 'header'>
-		<td  ><%= "Latin"%></td>
-		<td><%= "Pre-Champ"%></td>
-		<td><button type="button" attri=<%="select"+i%> class="btn btn-default shower">Details</button></td>
-		</tr>
-      <tr style="display:none" class=<%='select'+i%> >
-        <td><%="Leader"%></td>  
-      </tr>
-      <tr style="display:none" class=<%='select'+i%> >
-        <td><%="Not Looking for partner"%></td>  
-      </tr>
+      <% var length = styles.length %> 
+    	<% for (var i = 0; i < length; i++) { %>  
+    		<tr class = 'header shower'  attri=<%="select"+i%>>
+      		<td attri=<%="select"+i%>><%= styles[0].name%></td>
+      		<td attri=<%="select"+i%>><%= styles[0].level%></td>
+      		<td attri=<%="select"+i%>><button type="button" class="btn btn-default">Edit</button></td>
+    		</tr>
+        <tr style="display:none" class=<%='select'+i%> >
+          <td><%="Leader"%></td>  
+        </tr>
+        <tr style="display:none" class=<%='select'+i%> >
+          <%if (styles[0].searching === 1){%>
+            <td><%="Looking for partner"%></td>
+          <% } else{ %>
+            <td><%="Not looking for partner"%></td>
+          <% } %>
+        </tr>
+        <tr style="display:none" class=<%='select'+i%> >
+          <td><%="Division: "+styles[0].division%></td>  
+        </tr>
+        <tr style="display:none" class=<%='select'+i%> >
+          <td><%="Hours committed: "+styles[0].hours%></td>  
+        </tr>
 		<% } %>
     </tbody>
   </table>

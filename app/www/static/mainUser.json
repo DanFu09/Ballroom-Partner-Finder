@@ -1,1 +1,20 @@
-{}
+{
+    "age": 31,
+    "email": "Fred.Johnson@gmail.com",
+    "firstName": "Fred",
+    "height": 74,
+    "lastName": "Johnson",
+    "location": "user1address",
+    "picURL": "www.FredJohnson.com",
+    "sex": "Female",
+    "styles": [
+        {
+            "division": "Pro/Am",
+            "hours": 9,
+            "level": "Gold",
+            "name": "Latin",
+            "lf": "Leader",
+            "searching": 1
+        }
+    ]
+}
