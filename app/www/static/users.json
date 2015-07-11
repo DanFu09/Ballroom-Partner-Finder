@@ -1,20 +1,41 @@
 [
 
 {
-    "age": 58,
-    "email": "Suzie.Smith@gmail.com",
-    "firstName": "Suzie",
-    "height": 61,
-    "lastName": "Smith",
+    "age": 19,
+    "email": "John.Adams@gmail.com",
+    "firstName": "John",
+    "height": 76,
+    "lastName": "Adams",
     "location": "user1address",
-    "picURL": "www.SuzieSmith.com",
+    "picURL": "www.JohnAdams.com",
     "sex": "Female",
     "styles": [
         {
             "division": "Professional",
-            "hours": 16,
-            "level": "Bronze",
+            "hours": 1,
+            "level": "Silver",
+            "name": "Latin",
+            "searching": 0
+        },
+        {
+            "division": "Professional",
+            "hours": 11,
+            "level": "Champ",
+            "name": "Smooth",
+            "searching": 1
+        },
+        {
+            "division": "Professional",
+            "hours": 10,
+            "level": "Champ",
             "name": "Rhythm",
+            "searching": 1
+        },
+        {
+            "division": "Professional",
+            "hours": 7,
+            "level": "Champ",
+            "name": "Standard",
             "searching": 1
         }
     ],
@@ -23,20 +44,41 @@
 ,
 
 {
-    "age": 49,
-    "email": "Fred.Johnson@gmail.com",
-    "firstName": "Fred",
-    "height": 61,
-    "lastName": "Johnson",
+    "age": 24,
+    "email": "Tyler.Doe@gmail.com",
+    "firstName": "Tyler",
+    "height": 64,
+    "lastName": "Doe",
     "location": "user2address",
-    "picURL": "www.FredJohnson.com",
+    "picURL": "www.TylerDoe.com",
     "sex": "Female",
     "styles": [
         {
-            "division": "Amateur",
-            "hours": 5,
-            "level": "Gold",
+            "division": "Professional",
+            "hours": 8,
+            "level": "Bronze",
+            "name": "Standard",
+            "searching": 1
+        },
+        {
+            "division": "Professional",
+            "hours": 7,
+            "level": "Silver",
             "name": "Latin",
+            "searching": 1
+        },
+        {
+            "division": "Professional",
+            "hours": 9,
+            "level": "Rising Star",
+            "name": "Rhythm",
+            "searching": 1
+        },
+        {
+            "division": "Professional",
+            "hours": 10,
+            "level": "Rising Star",
+            "name": "Smooth",
             "searching": 1
         }
     ],
@@ -45,21 +87,21 @@
 ,
 
 {
-    "age": 39,
-    "email": "Alex.Walker@gmail.com",
-    "firstName": "Alex",
-    "height": 73,
-    "lastName": "Walker",
+    "age": 45,
+    "email": "Katie.Adams@gmail.com",
+    "firstName": "Katie",
+    "height": 71,
+    "lastName": "Adams",
     "location": "user3address",
-    "picURL": "www.AlexWalker.com",
-    "sex": "Male",
+    "picURL": "www.KatieAdams.com",
+    "sex": "Female",
     "styles": [
         {
             "division": "Amateur",
             "hours": 18,
-            "level": "Pre-bronze",
-            "name": "Latin",
-            "searching": 1
+            "level": "Bronze",
+            "name": "Rhythm",
+            "searching": 0
         }
     ],
     "userId": 2
@@ -67,21 +109,42 @@
 ,
 
 {
-    "age": 45,
-    "email": "John.Johnson@gmail.com",
-    "firstName": "John",
-    "height": 75,
-    "lastName": "Johnson",
+    "age": 27,
+    "email": "Tyler.Doe@gmail.com",
+    "firstName": "Tyler",
+    "height": 74,
+    "lastName": "Doe",
     "location": "user4address",
-    "picURL": "www.JohnJohnson.com",
-    "sex": "Female",
+    "picURL": "www.TylerDoe.com",
+    "sex": "Male",
     "styles": [
         {
-            "division": "Pro/Am",
+            "division": "Amateur",
+            "hours": 6,
+            "level": "Bronze",
+            "name": "Rhythm",
+            "searching": 1
+        },
+        {
+            "division": "Amateur",
+            "hours": 4,
+            "level": "Rising Star",
+            "name": "Standard",
+            "searching": 1
+        },
+        {
+            "division": "Amateur",
+            "hours": 11,
+            "level": "Bronze",
+            "name": "Latin",
+            "searching": 1
+        },
+        {
+            "division": "Amateur",
             "hours": 20,
-            "level": "Gold",
+            "level": "Rising Star",
             "name": "Smooth",
-            "searching": 0
+            "searching": 1
         }
     ],
     "userId": 3
@@ -89,20 +152,27 @@
 ,
 
 {
-    "age": 49,
-    "email": "Suzie.Einstein@gmail.com",
-    "firstName": "Suzie",
+    "age": 35,
+    "email": "Alex.Wang@gmail.com",
+    "firstName": "Alex",
     "height": 68,
-    "lastName": "Einstein",
+    "lastName": "Wang",
     "location": "user5address",
-    "picURL": "www.SuzieEinstein.com",
-    "sex": "Female",
+    "picURL": "www.AlexWang.com",
+    "sex": "Male",
     "styles": [
         {
-            "division": "Pro/Am",
-            "hours": 9,
+            "division": "Professional",
+            "hours": 3,
+            "level": "Rising Star",
+            "name": "Latin",
+            "searching": 0
+        },
+        {
+            "division": "Professional",
+            "hours": 1,
             "level": "Pre-bronze",
-            "name": "Smooth",
+            "name": "Standard",
             "searching": 0
         }
     ],
@@ -111,21 +181,21 @@
 ,
 
 {
-    "age": 44,
-    "email": "Dan.Christ@gmail.com",
-    "firstName": "Dan",
-    "height": 63,
-    "lastName": "Christ",
+    "age": 49,
+    "email": "Bob.Smith@gmail.com",
+    "firstName": "Bob",
+    "height": 71,
+    "lastName": "Smith",
     "location": "user6address",
-    "picURL": "www.DanChrist.com",
+    "picURL": "www.BobSmith.com",
     "sex": "Male",
     "styles": [
         {
-            "division": "Professional",
-            "hours": 12,
-            "level": "Gold",
+            "division": "Amateur",
+            "hours": 9,
+            "level": "Champ",
             "name": "Standard",
-            "searching": 0
+            "searching": 1
         }
     ],
     "userId": 5
@@ -133,20 +203,20 @@
 ,
 
 {
-    "age": 41,
-    "email": "Wendy.Wang@gmail.com",
-    "firstName": "Wendy",
-    "height": 69,
-    "lastName": "Wang",
+    "age": 50,
+    "email": "Tyler.Doe@gmail.com",
+    "firstName": "Tyler",
+    "height": 68,
+    "lastName": "Doe",
     "location": "user7address",
-    "picURL": "www.WendyWang.com",
-    "sex": "Male",
+    "picURL": "www.TylerDoe.com",
+    "sex": "Female",
     "styles": [
         {
-            "division": "Pro/Am",
-            "hours": 2,
-            "level": "Champ",
-            "name": "Latin",
+            "division": "Amateur",
+            "hours": 18,
+            "level": "Bronze",
+            "name": "Standard",
             "searching": 0
         }
     ],
@@ -155,20 +225,41 @@
 ,
 
 {
-    "age": 44,
-    "email": "Tyler.Freud@gmail.com",
-    "firstName": "Tyler",
-    "height": 62,
-    "lastName": "Freud",
+    "age": 40,
+    "email": "Katie.Walker@gmail.com",
+    "firstName": "Katie",
+    "height": 63,
+    "lastName": "Walker",
     "location": "user8address",
-    "picURL": "www.TylerFreud.com",
+    "picURL": "www.KatieWalker.com",
     "sex": "Female",
     "styles": [
         {
-            "division": "Pro/Am",
-            "hours": 15,
-            "level": "Pre-bronze",
+            "division": "Professional",
+            "hours": 11,
+            "level": "Bronze",
+            "name": "Smooth",
+            "searching": 1
+        },
+        {
+            "division": "Professional",
+            "hours": 14,
+            "level": "Rising Star",
             "name": "Latin",
+            "searching": 1
+        },
+        {
+            "division": "Professional",
+            "hours": 2,
+            "level": "Bronze",
+            "name": "Rhythm",
+            "searching": 1
+        },
+        {
+            "division": "Professional",
+            "hours": 20,
+            "level": "Gold",
+            "name": "Standard",
             "searching": 0
         }
     ],
@@ -177,19 +268,40 @@
 ,
 
 {
-    "age": 19,
-    "email": "Dan.Walker@gmail.com",
-    "firstName": "Dan",
-    "height": 66,
-    "lastName": "Walker",
+    "age": 46,
+    "email": "Alex.Einstein@gmail.com",
+    "firstName": "Alex",
+    "height": 74,
+    "lastName": "Einstein",
     "location": "user9address",
-    "picURL": "www.DanWalker.com",
+    "picURL": "www.AlexEinstein.com",
     "sex": "Male",
     "styles": [
         {
-            "division": "Pro/Am",
-            "hours": 17,
+            "division": "Amateur",
+            "hours": 5,
             "level": "Silver",
+            "name": "Standard",
+            "searching": 0
+        },
+        {
+            "division": "Amateur",
+            "hours": 14,
+            "level": "Gold",
+            "name": "Latin",
+            "searching": 1
+        },
+        {
+            "division": "Amateur",
+            "hours": 16,
+            "level": "Champ",
+            "name": "Smooth",
+            "searching": 0
+        },
+        {
+            "division": "Amateur",
+            "hours": 6,
+            "level": "Champ",
             "name": "Rhythm",
             "searching": 0
         }
@@ -199,19 +311,40 @@
 ,
 
 {
-    "age": 48,
-    "email": "Dan.Johnson@gmail.com",
-    "firstName": "Dan",
-    "height": 61,
+    "age": 30,
+    "email": "Katie.Johnson@gmail.com",
+    "firstName": "Katie",
+    "height": 69,
     "lastName": "Johnson",
     "location": "user10address",
-    "picURL": "www.DanJohnson.com",
-    "sex": "Male",
+    "picURL": "www.KatieJohnson.com",
+    "sex": "Female",
     "styles": [
         {
-            "division": "Professional",
-            "hours": 5,
-            "level": "Bronze",
+            "division": "Amateur",
+            "hours": 7,
+            "level": "Silver",
+            "name": "Latin",
+            "searching": 0
+        },
+        {
+            "division": "Amateur",
+            "hours": 3,
+            "level": "Rising Star",
+            "name": "Rhythm",
+            "searching": 0
+        },
+        {
+            "division": "Amateur",
+            "hours": 12,
+            "level": "Gold",
+            "name": "Standard",
+            "searching": 0
+        },
+        {
+            "division": "Amateur",
+            "hours": 8,
+            "level": "Silver",
             "name": "Smooth",
             "searching": 1
         }
