@@ -16,11 +16,20 @@ define([
         },
 
         events: {
-            'click button': 'toggleDetails'
+            'click .shower': 'toggleDetails'
         },
 
         toggleDetails: function(e) {
-            console.log("is this working");
+            var rows = $("."+e.target.attributes[1].value).each(function(){
+                console.log($(this));
+                if ($(this).css('display') == 'none'){
+                    $(this).show();
+                }
+                else{
+                    $(this).hide();
+                }
+            })
+            console.log(e.target.attributes[1].value);
         },
 
         render: function() {
