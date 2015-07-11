@@ -32,8 +32,6 @@ define([
 
         render: function() {
             var self = this;
-
-            console.log(self.user.toJSON());
             this.$el.append(this.template(self.user.toJSON()));
         }
     });
