@@ -36,6 +36,11 @@ To run a local HTTP server:
 ```
 sudo npm install -g http-server
 cd app
+<<<<<<< HEAD
 http-server
 ```
 >>>>>>> f6bc8b15a4fbd2e224fe9767bbbf723235e1ce3a
+=======
+http-server -o --cors
+```
+>>>>>>> dcbf586c84278f1b6c4cbbe6b3860916c0274ecb

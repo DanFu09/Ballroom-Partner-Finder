@@ -29,13 +29,13 @@ define([
         initialize: function() {
             this.bindEvents();
 
-            /*var contentContainer = $('#partner-finder-app');
+            var contentContainer = $('#partner-finder-app');
 
             var router = new Router({
                 contentContainer: contentContainer
             });
 
-            Backbone.history.start();*/
+            Backbone.history.start();
         },
         // Bind Event Listeners
         //
