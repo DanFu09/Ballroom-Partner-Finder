@@ -16,7 +16,7 @@ define([
         },
 
         events: {
-            'click #button': 'toggleDetails'
+            'click button': 'toggleDetails'
         },
 
         toggleDetails: function(e) {
@@ -26,7 +26,7 @@ define([
         render: function() {
             var self = this;
 
-            this.$el = this.template(self.user.toJSON());
+            this.$el.append(this.template(self.user.toJSON()));
         }
     });
 
