@@ -4,17 +4,20 @@ define([
     'backbone',
     'views/main',
     'views/profile',
-    'views/settings'
+    'views/settings',
+    'collections/Users'
 ], function($, _, Backbone,
     MainView,
     ProfileView,
-    SettingsView
+    SettingsView,
+    UsersCollection
 ) {
     'use strict';
 
     var Router = Backbone.Router.extend({
         initialize: function(options) {
             this.contentContainer = options.contentContainer;
+            this.usersCollection = new UsersCollection();
         },
 
         routes: {
@@ -30,9 +33,15 @@ define([
         },
 
         main: function() {
-            var mainView = new MainView();
+            var self = this;
 
-            this.setView(mainView);
+            var mainView = new MainView({
+                collection: self.usersCollection
+            });
+
+            $.when(self.usersCollection.fetch()).then(function() {
+                self.setView(mainView);
+            });
         },
 
         profile: function() {
