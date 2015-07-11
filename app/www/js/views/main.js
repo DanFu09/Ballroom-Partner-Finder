@@ -20,7 +20,11 @@ define([
         render: function() {
             var self = this;
 
-            self.$el = self.template(self.collection.toJSON());
+            console.log(self.collection.toJSON());
+
+            self.$el = self.template({
+                users: self.collection.toJSON()
+            });
         }
     });
 
