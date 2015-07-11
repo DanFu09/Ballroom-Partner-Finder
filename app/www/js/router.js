@@ -5,12 +5,14 @@ define([
     'views/main',
     'views/profile',
     'views/settings',
-    'collections/Users'
+    'collections/Users',
+    'models/User'
 ], function($, _, Backbone,
     MainView,
     ProfileView,
     SettingsView,
-    UsersCollection
+    UsersCollection,
+    UserModel
 ) {
     'use strict';
 
@@ -45,9 +47,19 @@ define([
         },
 
         profile: function() {
-            var profileView = new ProfileView();
+            var self = this;
 
-            this.setView(profileView);
+            var mainUser = new UserModel({
+                url: 'static/user.json'
+            });
+
+            var profileView = new ProfileView({
+                user: mainUser
+            });
+
+            $.when(mainUser.fetch()).then(function() {
+                self.setView(profileView);
+            });
         },
 
         settings: function() {

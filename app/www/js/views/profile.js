@@ -10,8 +10,14 @@ define([
     var profileView = Backbone.View.extend({
         template: _.template(profileTemplate),
 
+        initialize: function(options) {
+            this.user = options.user;
+        }
+
         render: function() {
-            this.$el = this.template;
+            var self = this;
+
+            this.$el = this.template(self.toJSON());
         }
     });
 
