@@ -22,9 +22,9 @@ define([
 
             console.log(self.collection.toJSON());
 
-            self.$el = self.template({
+            self.$el.append(self.template({
                 users: self.collection.toJSON()
-            });
+            }));
         }
     });
 

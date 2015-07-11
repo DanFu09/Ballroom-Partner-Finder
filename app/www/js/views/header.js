@@ -13,7 +13,7 @@ define([
         render: function() {
             var self = this;
 
-            this.$el = this.template;
+            this.$el.append(this.template());
         }
     });
 

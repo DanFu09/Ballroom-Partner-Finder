@@ -11,7 +11,7 @@ define([
         template: _.template(settingsTemplate),
 
         render: function() {
-            this.$el = this.template;
+            this.$el.append(this.template());
         }
     });
 

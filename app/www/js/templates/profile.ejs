@@ -1,4 +1,10 @@
-<h1><%= "Ima Dancer" %></h1>
+<h1 style="text-align:left"><%= "Ima Dancer" %></h1>
+
+<div align="left">
+  <p><b>Email:</b> <%= "imaDancer@dancingqueen.dancer.com"%>
+  <br><b>Gender:</b> <%= "Female"%>
+  <br><b>Age:</b> <%= "18"%></p>
+</div>
 
 <table class="table">
     <thead>
@@ -10,13 +16,19 @@
     </thead>
     <tbody>
     	<% for (var i = 0; i < 4; i++) { %>  
-		<tr>
-		<td><%= "Latin"%></td>
+		<tr class = 'header'>
+		<td  ><%= "Latin"%></td>
 		<td><%= "Pre-Champ"%></td>
-		<td><a href="#settings"><button>View Details</button></a></td>
+		<td><button type="button" class="btn btn-default">Details</button></td>
 		</tr>
+    <tr>
+      <td><%="Leader"%></td>  
+    </tr>
+    <tr>
+      <td><%="Not Looking for partner"%></td>  
+    </tr>
 		<% } %>
     </tbody>
   </table>
-<a href="#settings"><button>Add Style</button></a>
-<a href="#"><button>Home</button></a>
+<a href="#settings"><button type="button" class="btn btn-default">Add Style</button></a>
+<a href="#"><button type="button" class="btn btn-default">Home</button></a>
