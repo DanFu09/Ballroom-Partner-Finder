@@ -1,0 +1,13 @@
+import random
+
+numOfUsers = 10
+for i in range(numOfUsers):
+    print str('{ \n' +
+    '   "first name": ' + ' "user' + str(i+1) + 'firstName",\n'
+    '   "last name": ' + ' "user' + str(i+1) + 'lastName",\n'
+    '   "age": ' + str(random.randint(18, 60)) +', \n'
+    '   "sex": ' + '"male", \n'
+    '   "style list": ' + '["Style1", "Style2", "Style3", "style4"], \n'
+    '   "skill level": ' + '[' + str(random.randint(1,4))+ ', ' + str(random.randint(1,4))+ ', '+ str(random.randint(1,4))+ ', '+ str(random.randint(1,4))+ '], \n'
+    '   "searching": ' + str(random.randint(0,1))
+  +'\n },')
