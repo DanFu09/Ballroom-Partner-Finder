@@ -1,60 +1,59 @@
-<<<<<<< HEAD
 {
-    "age": 38,
+    "age": 57,
     "email": "user1lastName@gmail.com",
     "first name": "user1firstName",
-    "height": 73,
+    "height": 76,
     "last name": "user1lastName",
     "location": "user1address",
     "pic URL": "user1picURl",
-    "searching": 1,
+    "searching": 0,
     "sex": "male",
     "styles": {
-        "division": "Amateur",
-        "hours": 6,
-        "level": "Pre-bronze",
+        "division": "Professional",
+        "hours": 3,
+        "level": "Gold",
         "name": "Rhythm"
     }
 }
 {
-    "age": 58,
+    "age": 49,
     "email": "user2lastName@gmail.com",
     "first name": "user2firstName",
-    "height": 72,
+    "height": 58,
     "last name": "user2lastName",
     "location": "user2address",
     "pic URL": "user2picURl",
     "searching": 1,
     "sex": "male",
     "styles": {
-        "division": "Professional",
-        "hours": 1,
-        "level": "Champ",
-        "name": "Smooth"
-    }
-}
-{
-    "age": 23,
-    "email": "user3lastName@gmail.com",
-    "first name": "user3firstName",
-    "height": 61,
-    "last name": "user3lastName",
-    "location": "user3address",
-    "pic URL": "user3picURl",
-    "searching": 1,
-    "sex": "male",
-    "styles": {
-        "division": "Pro/Am",
-        "hours": 3,
-        "level": "Champ",
+        "division": "Amateur",
+        "hours": 8,
+        "level": "Silver",
         "name": "Standard"
     }
 }
 {
-    "age": 52,
+    "age": 43,
+    "email": "user3lastName@gmail.com",
+    "first name": "user3firstName",
+    "height": 60,
+    "last name": "user3lastName",
+    "location": "user3address",
+    "pic URL": "user3picURl",
+    "searching": 0,
+    "sex": "male",
+    "styles": {
+        "division": "Pro/Am",
+        "hours": 8,
+        "level": "Gold",
+        "name": "Rhythm"
+    }
+}
+{
+    "age": 21,
     "email": "user4lastName@gmail.com",
     "first name": "user4firstName",
-    "height": 69,
+    "height": 71,
     "last name": "user4lastName",
     "location": "user4address",
     "pic URL": "user4picURl",
@@ -62,84 +61,84 @@
     "sex": "male",
     "styles": {
         "division": "Pro/Am",
-        "hours": 8,
+        "hours": 1,
         "level": "Silver",
-        "name": "Standard"
+        "name": "Latin"
     }
 }
 {
-    "age": 54,
+    "age": 36,
     "email": "user5lastName@gmail.com",
     "first name": "user5firstName",
-    "height": 66,
+    "height": 58,
     "last name": "user5lastName",
     "location": "user5address",
     "pic URL": "user5picURl",
     "searching": 0,
     "sex": "male",
     "styles": {
-        "division": "Professional",
+        "division": "Pro/Am",
         "hours": 4,
         "level": "Champ",
-        "name": "Rhythm"
+        "name": "Smooth"
     }
 }
 {
-    "age": 58,
+    "age": 48,
     "email": "user6lastName@gmail.com",
     "first name": "user6firstName",
-    "height": 59,
+    "height": 66,
     "last name": "user6lastName",
     "location": "user6address",
     "pic URL": "user6picURl",
     "searching": 0,
     "sex": "male",
     "styles": {
+        "division": "Amateur",
+        "hours": 10,
+        "level": "Champ",
+        "name": "Latin"
+    }
+}
+{
+    "age": 23,
+    "email": "user7lastName@gmail.com",
+    "first name": "user7firstName",
+    "height": 63,
+    "last name": "user7lastName",
+    "location": "user7address",
+    "pic URL": "user7picURl",
+    "searching": 0,
+    "sex": "male",
+    "styles": {
         "division": "Pro/Am",
-        "hours": 6,
+        "hours": 8,
         "level": "Bronze",
         "name": "Rhythm"
     }
 }
 {
-    "age": 54,
-    "email": "user7lastName@gmail.com",
-    "first name": "user7firstName",
-    "height": 62,
-    "last name": "user7lastName",
-    "location": "user7address",
-    "pic URL": "user7picURl",
-    "searching": 1,
-    "sex": "male",
-    "styles": {
-        "division": "Professional",
-        "hours": 3,
-        "level": "Silver",
-        "name": "Smooth"
-    }
-}
-{
-    "age": 33,
+    "age": 57,
     "email": "user8lastName@gmail.com",
     "first name": "user8firstName",
-    "height": 60,
+    "height": 64,
     "last name": "user8lastName",
     "location": "user8address",
     "pic URL": "user8picURl",
     "searching": 1,
     "sex": "male",
     "styles": {
-        "division": "Professional",
-        "hours": 2,
-        "level": "Gold",
+        "division": "Pro/Am",
+        "hours": 7,
+        "level": "Pre-bronze",
         "name": "Latin"
     }
 }
 {
-    "age": 45,
+    "age": 30,
     "email": "user9lastName@gmail.com",
     "first name": "user9firstName",
-    "height": 64,
+    "height": 65,
     "last name": "user9lastName",
     "location": "user9address",
     "pic URL": "user9picURl",
@@ -147,217 +146,25 @@
     "sex": "male",
     "styles": {
         "division": "Pro/Am",
-        "hours": 6,
-        "level": "Gold",
+        "hours": 9,
+        "level": "Bronze",
         "name": "Standard"
     }
 }
 {
-    "age": 25,
+    "age": 27,
     "email": "user10lastName@gmail.com",
     "first name": "user10firstName",
-    "height": 66,
+    "height": 70,
     "last name": "user10lastName",
     "location": "user10address",
     "pic URL": "user10picURl",
-    "searching": 1,
+    "searching": 0,
     "sex": "male",
     "styles": {
-        "division": "Amateur",
-        "hours": 10,
-        "level": "Silver",
-        "name": "Standard"
+        "division": "Professional",
+        "hours": 3,
+        "level": "Rising Star",
+        "name": "Smooth"
     }
-=======
-[
-  { 
-   "first name":  "user1firstName",
-   "last name":  "user1lastName",
-   "email":  "user1lastName@gmail.com",
-   "pic URL":  "user1picURl",
-   "age": 59, 
-   "sex": "male", 
-   "location":  "user1address",
-   "height": 61, 
-   "searching": 0, 
-   "styles": [ 
-     {
-       "name":  "standard",
-       "division": "Amateur", 
-       "level": "bronze", 
-       "hours": 10
-     } 
-]
-},
-{ 
-   "first name":  "user2firstName",
-   "last name":  "user2lastName",
-   "email":  "user2lastName@gmail.com",
-   "pic URL":  "user2picURl",
-   "age": 44, 
-   "sex": "male", 
-   "location":  "user2address",
-   "height": 74, 
-   "searching": 1, 
-   "styles": [ 
-     {
-       "name":  "standard",
-       "division": "Amateur", 
-       "level": "bronze", 
-       "hours": 10
-     } 
-]
-},
-{ 
-   "first name":  "user3firstName",
-   "last name":  "user3lastName",
-   "email":  "user3lastName@gmail.com",
-   "pic URL":  "user3picURl",
-   "age": 37, 
-   "sex": "male", 
-   "location":  "user3address",
-   "height": 73, 
-   "searching": 1, 
-   "styles": [ 
-     {
-       "name":  "standard",
-       "division": "Amateur", 
-       "level": "bronze", 
-       "hours": 1
-     } 
-]
-},
-{ 
-   "first name":  "user4firstName",
-   "last name":  "user4lastName",
-   "email":  "user4lastName@gmail.com",
-   "pic URL":  "user4picURl",
-   "age": 59, 
-   "sex": "male", 
-   "location":  "user4address",
-   "height": 58, 
-   "searching": 0, 
-   "styles": [ 
-     {
-       "name":  "standard",
-       "division": "Amateur", 
-       "level": "bronze", 
-       "hours": 9
-     } 
-]
-},
-{ 
-   "first name":  "user5firstName",
-   "last name":  "user5lastName",
-   "email":  "user5lastName@gmail.com",
-   "pic URL":  "user5picURl",
-   "age": 56, 
-   "sex": "male", 
-   "location":  "user5address",
-   "height": 63, 
-   "searching": 1, 
-   "styles": [ 
-     {
-       "name":  "standard",
-       "division": "Amateur", 
-       "level": "bronze", 
-       "hours": 9
-     } 
-]
-},
-{ 
-   "first name":  "user6firstName",
-   "last name":  "user6lastName",
-   "email":  "user6lastName@gmail.com",
-   "pic URL":  "user6picURl",
-   "age": 42, 
-   "sex": "male", 
-   "location":  "user6address",
-   "height": 65, 
-   "searching": 1, 
-   "styles": [ 
-     {
-       "name":  "standard",
-       "division": "Amateur", 
-       "level": "bronze", 
-       "hours": 5
-     } 
-]
-},
-{ 
-   "first name":  "user7firstName",
-   "last name":  "user7lastName",
-   "email":  "user7lastName@gmail.com",
-   "pic URL":  "user7picURl",
-   "age": 30, 
-   "sex": "male", 
-   "location":  "user7address",
-   "height": 71, 
-   "searching": 1, 
-   "styles": [ 
-     {
-       "name":  "standard",
-       "division": "Amateur", 
-       "level": "bronze", 
-       "hours": 9
-     } 
-]
-},
-{ 
-   "first name":  "user8firstName",
-   "last name":  "user8lastName",
-   "email":  "user8lastName@gmail.com",
-   "pic URL":  "user8picURl",
-   "age": 47, 
-   "sex": "male", 
-   "location":  "user8address",
-   "height": 66, 
-   "searching": 1, 
-   "styles": [ 
-     {
-       "name":  "standard",
-       "division": "Amateur", 
-       "level": "bronze", 
-       "hours": 5
-     } 
-]
-},
-{ 
-   "first name":  "user9firstName",
-   "last name":  "user9lastName",
-   "email":  "user9lastName@gmail.com",
-   "pic URL":  "user9picURl",
-   "age": 41, 
-   "sex": "male", 
-   "location":  "user9address",
-   "height": 67, 
-   "searching": 0, 
-   "styles": [ 
-     {
-       "name":  "standard",
-       "division": "Amateur", 
-       "level": "bronze", 
-       "hours": 5
-     } 
-]
-},
-{ 
-   "first name":  "user10firstName",
-   "last name":  "user10lastName",
-   "email":  "user10lastName@gmail.com",
-   "pic URL":  "user10picURl",
-   "age": 50, 
-   "sex": "male", 
-   "location":  "user10address",
-   "height": 76, 
-   "searching": 1, 
-   "styles": [ 
-     {
-       "name":  "standard",
-       "division": "Amateur", 
-       "level": "bronze", 
-       "hours": 5
-     } 
-]
->>>>>>> 7559d1fced2fe551578b0139173ff55261d66242
 }
