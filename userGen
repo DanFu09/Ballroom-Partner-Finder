@@ -3,22 +3,25 @@ import json
 
 numOfUsers = 10
 
-nameList = []
+firstNameList = ['Bob', 'John', 'Alex', 'Mary', 'Jim', 'Suzie', 'Katie', 'Fred', 'Tyler', 'Wendy','Dan', 'Kelsey']
+lastNameList = ['Johnson', 'Smith', 'Doe', 'Adams', 'Akins', 'White', 'Freud', 'Einstein', 'Christ', 'Hernadez','Wang', 'Walker']
 styleNameArray = ['Standard', 'Smooth', 'Latin', 'Rhythm']
 divisionArray = ['Amateur', 'Professional', 'Pro/Am']
 levelArray = ['Pre-bronze', 'Bronze', 'Silver', 'Gold', 'Rising Star', 'Champ']
+sexArray = ['Male', 'Female']
 #jsonFile  = open('app/www/static/users.json', 'w')
 
 def getRandType(typeArray):
     return str(typeArray[random.randrange(len(typeArray))])
 
+print '[\n'
 for i in range(numOfUsers):
-    firstName = 'user' + str(i+1) + 'firstName'
-    lastName = 'user' + str(i+1) + 'lastName'
-    email = 'user' + str(i+1) + lastName + '@gmail.com'
-    picURL = 'user' + str(i+1) + 'picURl'
+    firstName = getRandType(firstNameList)
+    lastName = getRandType(lastNameList)
+    email = firstName + '.' + lastName + '@gmail.com'
+    picURL = 'www.' + firstName + lastName + '.com'
     age = random.randint(18, 60)
-    sex = 'male'
+    sex = getRandType(sexArray)
     address = 'user' + str(i+1) + 'address'
 
     stylesName = getRandType(styleNameArray)
@@ -26,10 +29,10 @@ for i in range(numOfUsers):
     level = getRandType(levelArray)
     hours = random.randint(1, 10)
 
-    styles = dict([('name', stylesName),
+    styles = [dict([('name', stylesName),
                    ('division', division),
                    ('level', level),
-                   ('hours', hours)])
+                   ('hours', hours)])]
 
     user = dict([('first name', firstName),
               ('last name', lastName ),
@@ -41,4 +44,9 @@ for i in range(numOfUsers):
               ('height', random.randint(58, 76)),
               ('searching', random.randint(0,1)),
               ('styles', styles)])
-    print(json.dumps(user, sort_keys=True,indent=4, separators=(',', ': ')))
+    print json.dumps(user, sort_keys=True,indent=4, separators=(',', ': '))
+
+    if (i != numOfUsers-1):
+        print ",\n"
+
+print '\n ]'

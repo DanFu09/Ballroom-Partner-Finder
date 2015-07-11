@@ -1,170 +1,212 @@
+[
+
 {
-    "age": 57,
-    "email": "user1lastName@gmail.com",
-    "first name": "user1firstName",
-    "height": 76,
-    "last name": "user1lastName",
+    "age": 31,
+    "email": "Fred.Johnson@gmail.com",
+    "first name": "Fred",
+    "height": 74,
+    "last name": "Johnson",
     "location": "user1address",
-    "pic URL": "user1picURl",
-    "searching": 0,
-    "sex": "male",
-    "styles": {
-        "division": "Professional",
-        "hours": 3,
-        "level": "Gold",
-        "name": "Rhythm"
-    }
-}
-{
-    "age": 49,
-    "email": "user2lastName@gmail.com",
-    "first name": "user2firstName",
-    "height": 58,
-    "last name": "user2lastName",
-    "location": "user2address",
-    "pic URL": "user2picURl",
+    "pic URL": "www.FredJohnson.com",
     "searching": 1,
-    "sex": "male",
-    "styles": {
-        "division": "Amateur",
-        "hours": 8,
-        "level": "Silver",
-        "name": "Standard"
-    }
+    "sex": "Female",
+    "styles": [
+        {
+            "division": "Pro/Am",
+            "hours": 9,
+            "level": "Gold",
+            "name": "Latin"
+        }
+    ]
 }
+,
+
 {
-    "age": 43,
-    "email": "user3lastName@gmail.com",
-    "first name": "user3firstName",
-    "height": 60,
-    "last name": "user3lastName",
+    "age": 24,
+    "email": "Wendy.Hernadez@gmail.com",
+    "first name": "Wendy",
+    "height": 70,
+    "last name": "Hernadez",
+    "location": "user2address",
+    "pic URL": "www.WendyHernadez.com",
+    "searching": 0,
+    "sex": "Male",
+    "styles": [
+        {
+            "division": "Professional",
+            "hours": 5,
+            "level": "Rising Star",
+            "name": "Standard"
+        }
+    ]
+}
+,
+
+{
+    "age": 32,
+    "email": "Kelsey.Walker@gmail.com",
+    "first name": "Kelsey",
+    "height": 72,
+    "last name": "Walker",
     "location": "user3address",
-    "pic URL": "user3picURl",
+    "pic URL": "www.KelseyWalker.com",
     "searching": 0,
-    "sex": "male",
-    "styles": {
-        "division": "Pro/Am",
-        "hours": 8,
-        "level": "Gold",
-        "name": "Rhythm"
-    }
+    "sex": "Female",
+    "styles": [
+        {
+            "division": "Professional",
+            "hours": 4,
+            "level": "Silver",
+            "name": "Latin"
+        }
+    ]
 }
+,
+
 {
-    "age": 21,
-    "email": "user4lastName@gmail.com",
-    "first name": "user4firstName",
-    "height": 71,
-    "last name": "user4lastName",
-    "location": "user4address",
-    "pic URL": "user4picURl",
-    "searching": 0,
-    "sex": "male",
-    "styles": {
-        "division": "Pro/Am",
-        "hours": 1,
-        "level": "Silver",
-        "name": "Latin"
-    }
-}
-{
-    "age": 36,
-    "email": "user5lastName@gmail.com",
-    "first name": "user5firstName",
-    "height": 58,
-    "last name": "user5lastName",
-    "location": "user5address",
-    "pic URL": "user5picURl",
-    "searching": 0,
-    "sex": "male",
-    "styles": {
-        "division": "Pro/Am",
-        "hours": 4,
-        "level": "Champ",
-        "name": "Smooth"
-    }
-}
-{
-    "age": 48,
-    "email": "user6lastName@gmail.com",
-    "first name": "user6firstName",
+    "age": 56,
+    "email": "Tyler.Christ@gmail.com",
+    "first name": "Tyler",
     "height": 66,
-    "last name": "user6lastName",
-    "location": "user6address",
-    "pic URL": "user6picURl",
-    "searching": 0,
-    "sex": "male",
-    "styles": {
-        "division": "Amateur",
-        "hours": 10,
-        "level": "Champ",
-        "name": "Latin"
-    }
+    "last name": "Christ",
+    "location": "user4address",
+    "pic URL": "www.TylerChrist.com",
+    "searching": 1,
+    "sex": "Male",
+    "styles": [
+        {
+            "division": "Professional",
+            "hours": 3,
+            "level": "Bronze",
+            "name": "Latin"
+        }
+    ]
 }
+,
+
 {
     "age": 23,
-    "email": "user7lastName@gmail.com",
-    "first name": "user7firstName",
-    "height": 63,
-    "last name": "user7lastName",
-    "location": "user7address",
-    "pic URL": "user7picURl",
-    "searching": 0,
-    "sex": "male",
-    "styles": {
-        "division": "Pro/Am",
-        "hours": 8,
-        "level": "Bronze",
-        "name": "Rhythm"
-    }
-}
-{
-    "age": 57,
-    "email": "user8lastName@gmail.com",
-    "first name": "user8firstName",
-    "height": 64,
-    "last name": "user8lastName",
-    "location": "user8address",
-    "pic URL": "user8picURl",
-    "searching": 1,
-    "sex": "male",
-    "styles": {
-        "division": "Pro/Am",
-        "hours": 7,
-        "level": "Pre-bronze",
-        "name": "Latin"
-    }
-}
-{
-    "age": 30,
-    "email": "user9lastName@gmail.com",
-    "first name": "user9firstName",
+    "email": "Kelsey.White@gmail.com",
+    "first name": "Kelsey",
     "height": 65,
-    "last name": "user9lastName",
-    "location": "user9address",
-    "pic URL": "user9picURl",
-    "searching": 1,
-    "sex": "male",
-    "styles": {
-        "division": "Pro/Am",
-        "hours": 9,
-        "level": "Bronze",
-        "name": "Standard"
-    }
-}
-{
-    "age": 27,
-    "email": "user10lastName@gmail.com",
-    "first name": "user10firstName",
-    "height": 70,
-    "last name": "user10lastName",
-    "location": "user10address",
-    "pic URL": "user10picURl",
+    "last name": "White",
+    "location": "user5address",
+    "pic URL": "www.KelseyWhite.com",
     "searching": 0,
-    "sex": "male",
-    "styles": {
-        "division": "Professional",
-        "hours": 3,
-        "level": "Rising Star",
-        "name": "Smooth"
-    }
+    "sex": "Female",
+    "styles": [
+        {
+            "division": "Amateur",
+            "hours": 7,
+            "level": "Silver",
+            "name": "Standard"
+        }
+    ]
 }
+,
+
+{
+    "age": 50,
+    "email": "Alex.Walker@gmail.com",
+    "first name": "Alex",
+    "height": 64,
+    "last name": "Walker",
+    "location": "user6address",
+    "pic URL": "www.AlexWalker.com",
+    "searching": 1,
+    "sex": "Female",
+    "styles": [
+        {
+            "division": "Amateur",
+            "hours": 9,
+            "level": "Rising Star",
+            "name": "Rhythm"
+        }
+    ]
+}
+,
+
+{
+    "age": 26,
+    "email": "Alex.Wang@gmail.com",
+    "first name": "Alex",
+    "height": 70,
+    "last name": "Wang",
+    "location": "user7address",
+    "pic URL": "www.AlexWang.com",
+    "searching": 1,
+    "sex": "Male",
+    "styles": [
+        {
+            "division": "Professional",
+            "hours": 3,
+            "level": "Champ",
+            "name": "Rhythm"
+        }
+    ]
+}
+,
+
+{
+    "age": 52,
+    "email": "John.Smith@gmail.com",
+    "first name": "John",
+    "height": 68,
+    "last name": "Smith",
+    "location": "user8address",
+    "pic URL": "www.JohnSmith.com",
+    "searching": 1,
+    "sex": "Female",
+    "styles": [
+        {
+            "division": "Professional",
+            "hours": 6,
+            "level": "Gold",
+            "name": "Rhythm"
+        }
+    ]
+}
+,
+
+{
+    "age": 52,
+    "email": "Alex.Wang@gmail.com",
+    "first name": "Alex",
+    "height": 70,
+    "last name": "Wang",
+    "location": "user9address",
+    "pic URL": "www.AlexWang.com",
+    "searching": 1,
+    "sex": "Female",
+    "styles": [
+        {
+            "division": "Professional",
+            "hours": 8,
+            "level": "Silver",
+            "name": "Smooth"
+        }
+    ]
+}
+,
+
+{
+    "age": 47,
+    "email": "Jim.Johnson@gmail.com",
+    "first name": "Jim",
+    "height": 69,
+    "last name": "Johnson",
+    "location": "user10address",
+    "pic URL": "www.JimJohnson.com",
+    "searching": 0,
+    "sex": "Male",
+    "styles": [
+        {
+            "division": "Pro/Am",
+            "hours": 1,
+            "level": "Silver",
+            "name": "Smooth"
+        }
+    ]
+}
+
+ ]
