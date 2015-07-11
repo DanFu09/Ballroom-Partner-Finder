@@ -19,25 +19,22 @@
       <% var length = styles.length %> 
     	<% for (var i = 0; i < length; i++) { %>  
     		<tr class = 'header shower'  attri=<%="select"+i%>>
-      		<td attri=<%="select"+i%>><%= styles[0].name%></td>
-      		<td attri=<%="select"+i%>><%= styles[0].level%></td>
+      		<td attri=<%="select"+i%>><%= styles[i].name%></td>
+      		<td attri=<%="select"+i%>><%= styles[i].division+", "+styles[i].level%></td>
       		<td attri=<%="select"+i%>><button type="button" class="btn btn-default">Edit</button></td>
     		</tr>
         <tr style="display:none" class=<%='select'+i%> >
           <td><%="Leader"%></td>  
         </tr>
         <tr style="display:none" class=<%='select'+i%> >
-          <%if (styles[0].searching === 1){%>
+          <%if (styles[i].searching === 1){%>
             <td><%="Looking for partner"%></td>
           <% } else{ %>
             <td><%="Not looking for partner"%></td>
           <% } %>
         </tr>
         <tr style="display:none" class=<%='select'+i%> >
-          <td><%="Division: "+styles[0].division%></td>  
-        </tr>
-        <tr style="display:none" class=<%='select'+i%> >
-          <td><%="Hours committed: "+styles[0].hours%></td>  
+          <td><%="Hours committed: "+styles[i].hours%></td>  
         </tr>
 		<% } %>
     </tbody>
