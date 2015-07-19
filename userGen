@@ -22,7 +22,7 @@ for i in range(numOfUsers):
     picURL = 'https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=100'
     age = random.randint(18, 60)
     sex = getRandType(sexArray)
-    address = 'user' + str(i+1) + 'address'
+    address = 'Boston'
 
     random.shuffle(styleNameArray)
     numStyles = random.randint(1, 4)

@@ -6,8 +6,8 @@
     "firstName": "John",
     "height": 76,
     "lastName": "Adams",
-    "location": "user1address",
-    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=100",
+    "location": "Boston",
+    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=200",
     "sex": "Female",
     "styles": [
         {
@@ -49,8 +49,8 @@
     "firstName": "Tyler",
     "height": 64,
     "lastName": "Doe",
-    "location": "user2address",
-    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=100",
+    "location": "Boston",
+    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=200",
     "sex": "Female",
     "styles": [
         {
@@ -92,8 +92,8 @@
     "firstName": "Katie",
     "height": 71,
     "lastName": "Adams",
-    "location": "user3address",
-    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=100",
+    "location": "Boston",
+    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=200",
     "sex": "Female",
     "styles": [
         {
@@ -114,8 +114,8 @@
     "firstName": "Tyler",
     "height": 74,
     "lastName": "Doe",
-    "location": "user4address",
-    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=100",
+    "location": "Boston",
+    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=200",
     "sex": "Male",
     "styles": [
         {
@@ -157,8 +157,8 @@
     "firstName": "Alex",
     "height": 68,
     "lastName": "Wang",
-    "location": "user5address",
-    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=100",
+    "location": "Boston",
+    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=200",
     "sex": "Male",
     "styles": [
         {
@@ -186,8 +186,8 @@
     "firstName": "Bob",
     "height": 71,
     "lastName": "Smith",
-    "location": "user6address",
-    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=100",
+    "location": "Boston",
+    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=200",
     "sex": "Male",
     "styles": [
         {
@@ -208,8 +208,8 @@
     "firstName": "Tyler",
     "height": 68,
     "lastName": "Doe",
-    "location": "user7address",
-    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=100",
+    "location": "Boston",
+    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=200",
     "sex": "Female",
     "styles": [
         {
@@ -230,8 +230,8 @@
     "firstName": "Katie",
     "height": 63,
     "lastName": "Walker",
-    "location": "user8address",
-    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=100",
+    "location": "Boston",
+    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=200",
     "sex": "Female",
     "styles": [
         {
@@ -273,8 +273,8 @@
     "firstName": "Alex",
     "height": 74,
     "lastName": "Einstein",
-    "location": "user9address",
-    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=100",
+    "location": "Boston",
+    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=200",
     "sex": "Male",
     "styles": [
         {
@@ -316,8 +316,8 @@
     "firstName": "Katie",
     "height": 69,
     "lastName": "Johnson",
-    "location": "user10address",
-    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=100",
+    "location": "Boston",
+    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=200",
     "sex": "Female",
     "styles": [
         {

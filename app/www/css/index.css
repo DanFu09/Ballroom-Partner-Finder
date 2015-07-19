@@ -91,14 +91,18 @@ tr.header {
     padding-top: 7px;
 }
 
-.padded {
-    padding: 5px;
-}
-
 .main-list-item {
     overflow: scroll;
 }
 
-.profile-image {
+.main-list-image {
     margin: 5px 10px 5px 0px;
+    height: 100px;
+    width: 100px;
+}
+
+.profile-page-image {
+    height: 150px;
+    width: 150px;
+    margin: 0px 10px 10px 10px;
 }

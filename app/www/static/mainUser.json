@@ -4,8 +4,8 @@
     "firstName": "Fred",
     "height": 74,
     "lastName": "Johnson",
-    "location": "user1address",
-    "picURL": "www.FredJohnson.com",
+    "location": "Boston",
+    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=200",
     "sex": "Female",
     "styles": [
         {
