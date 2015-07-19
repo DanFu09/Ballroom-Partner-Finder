@@ -94,3 +94,11 @@ tr.header {
 .padded {
     padding: 5px;
 }
+
+.main-list-item {
+    overflow: scroll;
+}
+
+.profile-image {
+    margin: 5px 10px 5px 0px;
+}

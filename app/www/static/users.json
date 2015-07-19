@@ -7,7 +7,7 @@
     "height": 76,
     "lastName": "Adams",
     "location": "user1address",
-    "picURL": "www.JohnAdams.com",
+    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=100",
     "sex": "Female",
     "styles": [
         {
@@ -50,7 +50,7 @@
     "height": 64,
     "lastName": "Doe",
     "location": "user2address",
-    "picURL": "www.TylerDoe.com",
+    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=100",
     "sex": "Female",
     "styles": [
         {
@@ -93,7 +93,7 @@
     "height": 71,
     "lastName": "Adams",
     "location": "user3address",
-    "picURL": "www.KatieAdams.com",
+    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=100",
     "sex": "Female",
     "styles": [
         {
@@ -115,7 +115,7 @@
     "height": 74,
     "lastName": "Doe",
     "location": "user4address",
-    "picURL": "www.TylerDoe.com",
+    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=100",
     "sex": "Male",
     "styles": [
         {
@@ -158,7 +158,7 @@
     "height": 68,
     "lastName": "Wang",
     "location": "user5address",
-    "picURL": "www.AlexWang.com",
+    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=100",
     "sex": "Male",
     "styles": [
         {
@@ -187,7 +187,7 @@
     "height": 71,
     "lastName": "Smith",
     "location": "user6address",
-    "picURL": "www.BobSmith.com",
+    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=100",
     "sex": "Male",
     "styles": [
         {
@@ -209,7 +209,7 @@
     "height": 68,
     "lastName": "Doe",
     "location": "user7address",
-    "picURL": "www.TylerDoe.com",
+    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=100",
     "sex": "Female",
     "styles": [
         {
@@ -231,7 +231,7 @@
     "height": 63,
     "lastName": "Walker",
     "location": "user8address",
-    "picURL": "www.KatieWalker.com",
+    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=100",
     "sex": "Female",
     "styles": [
         {
@@ -274,7 +274,7 @@
     "height": 74,
     "lastName": "Einstein",
     "location": "user9address",
-    "picURL": "www.AlexEinstein.com",
+    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=100",
     "sex": "Male",
     "styles": [
         {
@@ -317,7 +317,7 @@
     "height": 69,
     "lastName": "Johnson",
     "location": "user10address",
-    "picURL": "www.KatieJohnson.com",
+    "picURL": "https://secure.gravatar.com/avatar/651cef708779fbedf9360af40489ceb7?s=100",
     "sex": "Female",
     "styles": [
         {

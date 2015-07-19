@@ -1,6 +1,7 @@
 <ul class="list-group no-border-radius">
 <% for (userIndex in users) { %>  
-	<a class="list-group-item no-border-radius" href=<%= "#profile/" + users[userIndex].userId %>>
+	<a class="list-group-item no-border-radius main-list-item" href=<%= "#profile/" + users[userIndex].userId %>>
+		<img src=<%= users[userIndex].picURL %> class="img-rounded pull-left profile-image">
 		<h5><%= users[userIndex].firstName %> <%= users[userIndex].lastName %></h5>
 		<div><%= users[userIndex].sex %></div>
 		<div><%= users[userIndex].searchingMessage %></div>
