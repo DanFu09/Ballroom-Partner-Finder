@@ -28,6 +28,8 @@ define([
             this.contentContainer = options.contentContainer;
             this.footerContainer = options.footerContainer;
             this.usersCollection = new UsersCollection();
+
+            this.fetchingUsers = this.usersCollection.fetch();
         },
 
         routes: {
@@ -50,7 +52,7 @@ define([
                 collection: self.usersCollection
             });
 
-            $.when(self.usersCollection.fetch()).then(function() {
+            $.when(self.fetchingUsers).then(function() {
                 self.setView(mainView);
             });
         },
@@ -61,23 +63,25 @@ define([
             var user;
             var mainUser = new UserModel();
             mainUser.url='static/mainUser.json';
-            if (userId) {
-                user = self.usersCollection.find(function(user) {
-                    return user.get('userId') === Number(userId);
+
+            $.when(self.fetchingUsers, mainUser.fetch()).then(function() {
+                if (userId) {
+                        user = self.usersCollection.find(function(user) {
+                            return user.get('userId') === Number(userId);
+                        });
+                }
+                if (!user) {
+                    user = mainUser;
+                }
+
+                var profileView = new ProfileView({
+                    user: user,
+                    mainUser: mainUser
                 });
-            }
-            else {
-                user = mainUser;
-            }
 
-            var profileView = new ProfileView({
-                user: user,
-                mainUser: mainUser
-            });
-
-            $.when(mainUser.fetch()).then(function() {
                 self.setView(profileView);
             });
+
         },
 
         settings: function() {
